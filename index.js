@@ -2,13 +2,13 @@ import Buzon from './buzon.js';
 
 (function() {
   const persons = [
-    { name: 'Ricardo', avatar: './img/ricardo.jpg' },
-    { name: 'Jesus', avatar: './img/jesus.png' },
-    { name: 'Fran', avatar: './img/fran.png' },
-    { name: 'Patxi', avatar: './img/patxi.jpg' },
-    { name: 'Miguel Ángel', avatar: './img/miguelangel.jpg' },
-    { name: 'Riesco', avatar: './img/image_1.png' },
-    { name: 'Juli', avatar: './img/juli.jpg' },
+    { name: 'Ricardo', avatar: './img/pacman2.png' },
+    { name: 'Jesus', avatar: './img/pacman2.png' },
+    { name: 'Fran', avatar: './img/pacman2.png' },
+    { name: 'Patxi', avatar: './img/pacman2.png' },
+    { name: 'Miguel Ángel', avatar: './img/pacman2.png' },
+    { name: 'Riesco', avatar: './img/pacman2.png' },
+    { name: 'Juli', avatar: './img/pacman2.png' },
   ];
   const $mainImage = document.querySelector('#main-image');
   const $mainTitle = document.querySelector('#main-title');
