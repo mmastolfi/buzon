@@ -6,7 +6,6 @@ import Buzon from './buzon.js';
     { name: 'Jesús', avatar: './img/pacman2.png' },
     { name: 'Fran', avatar: './img/pacman2.png' },
     { name: 'Patxi', avatar: './img/pacman2.png' },
-    { name: 'Miguel Ángel', avatar: './img/pacman2.png' },
     { name: 'Riesco', avatar: './img/pacman2.png' },
     { name: 'Juli', avatar: './img/pacman2.png' },
   ];
