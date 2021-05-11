@@ -1,4 +1,4 @@
-export default class Fantasmator {
+export default class Buzon {
 
   set persons(val) {
     if (val instanceof Array) {
@@ -49,7 +49,7 @@ export default class Fantasmator {
   }
 
   get _maxWeeksInAYear() {
-    return 53;
+    return 999999;
   }
 
   constructor({ persons, changeDayIndex, startDate } = {}) {
