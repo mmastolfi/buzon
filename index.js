@@ -25,7 +25,7 @@ import Buzon from './buzon.js';
 
   $mainImage.src = currentPerson.avatar;
   $mainTitle.innerText = currentPerson.name;
-  $mainDate.innerText = cycleStartDate.toDateString();
+  $mainDate.innerText = cycleStartDate.toLocaleDateString("es-ES", { year: 'numeric', month: 'long', day: 'numeric' });
 
   const currentPersonIndex = persons.indexOf(currentPerson);
   const buzonList = [
@@ -42,7 +42,7 @@ import Buzon from './buzon.js';
   function getItemTemplate(person) {
     return $buzonItemTemplate.innerHTML
       .split('{{name}}').join(person.name)
-      .split('{{date}}').join(person.startDate.toDateString())
+      .split('{{date}}').join(person.startDate.toLocaleDateString("es-ES", { year: 'numeric', month: 'long', day: 'numeric' }))
       .split('{{image}}').join(person.avatar);
   }
 
