@@ -21,7 +21,7 @@ export default class Buzon {
   }
 
   get changeDayIndex() {
-    return this._changeDayIndex || 2;
+    return this._changeDayIndex || 3;
   }
 
   set startDate(val) {
