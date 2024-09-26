@@ -4,8 +4,9 @@ import Buzon from './buzon.js';
   const persons = [
     { name: 'Miguel Ángel', avatar: './img/pacman2.png' },
     { name: 'Julio', avatar: './img/pacman2.png' },
-    { name: 'Jesús', avatar: './img/pacman2.png' },
     { name: 'Enzo', avatar: './img/pacman2.png' },
+    { name: 'Julián', avatar: './img/pacman2.png' },
+    { name: 'Martín', avatar: './img/pacman2.png' },
   ];
 
   const $mainImage = document.querySelector('#main-image');
